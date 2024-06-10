@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19000a90-af2b-4cbd-a6f2-7fea34b5d0bb" name="Changes" comment="Created new file to display the dataset">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_dataset.py" afterDir="false" />
-    </list>
+    <list default="true" id="19000a90-af2b-4cbd-a6f2-7fea34b5d0bb" name="Changes" comment="created new file create dataset" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +91,7 @@
       <workItem from="1717630014248" duration="617000" />
       <workItem from="1717707037155" duration="6184000" />
       <workItem from="1717798750701" duration="7000" />
-      <workItem from="1717798896010" duration="1748000" />
+      <workItem from="1717798896010" duration="1942000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -136,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718055276377</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created new file create dataset">
+      <option name="closed" value="true" />
+      <created>1718056181772</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718056181772</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Created new file to display the dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created new file to display the dataset" />
+    <MESSAGE value="created new file create dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="created new file create dataset" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Hand_Gesture_Detection$main.coverage" NAME="main Coverage Results" MODIFIED="1717799041625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

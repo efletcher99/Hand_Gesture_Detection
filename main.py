@@ -5,9 +5,8 @@ DATA_DIR = "./data"
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
-dataset_size = 250
-letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-           'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+dataset_size = 300
+letters = ['g', 'h', 'i', 'j', 'k', 'l', 'n', 't']
 
 cap = cv2.VideoCapture(1)  # Changed to 0 for default camera
 

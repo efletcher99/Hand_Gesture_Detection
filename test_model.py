@@ -23,7 +23,7 @@ word = ""
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.3)
 
 labels_dict = {'a': 'a', 'b': 'b', 'c': 'c', 'd': 'd', 'e': 'e', 'f': 'f', 'g': 'g', 'h': 'h',
-               'i': 'i', 'j': 'j', 'k': 'k', 'l': 'l', 'n': 'n', 't': 't'}
+               'i': 'i', 'j': 'j', 'k': 'k', 'l': 'l', 'n': 'n', 't': 't', 'space': 'space'}
 while True:
 
     data_aux = []
@@ -79,7 +79,10 @@ while True:
         current_prediction_index += 1
 
         if letter_count > 15:
-            word += predicted_character
+            if predicted_character == 'space':
+                word += " "
+            else:
+                word += predicted_character
             letter_count = 0
 
         cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), 4)
@@ -101,6 +104,7 @@ while True:
 
     cv2.imshow('frame', frame)
     cv2.waitKey(1)
+
 
 cap.release()
 cv2.destroyAllWindows()

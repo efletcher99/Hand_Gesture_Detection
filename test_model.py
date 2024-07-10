@@ -23,7 +23,9 @@ word = ""
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.3)
 
 labels_dict = {'a': 'a', 'b': 'b', 'c': 'c', 'd': 'd', 'e': 'e', 'f': 'f', 'g': 'g', 'h': 'h',
-               'i': 'i', 'j': 'j', 'k': 'k', 'l': 'l', 'n': 'n', 't': 't', 'space': 'space'}
+               'i': 'i', 'j': 'j', 'k': 'k', 'l': 'l', 'm': 'm', 'n': 'n', 'o': 'o', 'p': 'p',
+               'q': 'q', 'r': 'r', 's': 's', 't': 't', 'u': 'u', 'v': 'v', 'w': 'w', 'x': 'x',
+               'y': 'y', 'z': 'z', 'space': 'space'}
 while True:
 
     data_aux = []

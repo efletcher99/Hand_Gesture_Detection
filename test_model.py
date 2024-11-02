@@ -80,7 +80,7 @@ while True:
 
         current_prediction_index += 1
 
-        if letter_count > 15:
+        if letter_count > 25:
             if predicted_character == 'space':
                 word += " "
             else:

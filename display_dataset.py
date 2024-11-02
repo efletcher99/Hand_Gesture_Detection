@@ -52,11 +52,11 @@ for dir_ in os.listdir(DATA_DIR):
         results = hands.process(img_rgb)
         if results.multi_hand_landmarks:
             for hand_landmarks in results.multi_hand_landmarks:
-                # Draw landmarks.
+
                 mp_drawing.draw_landmarks(
                     img_rgb, hand_landmarks, mp_hands.HAND_CONNECTIONS)
 
-                # Get bounding box with margin.
+
                 bbox = draw_bounding_box(img_rgb, hand_landmarks)
                 print(f"Bounding box for {img_path}: {bbox}")
                 cropped_img, bbox_size = crop_to_bounding_box(img_rgb, bbox)
@@ -65,10 +65,10 @@ for dir_ in os.listdir(DATA_DIR):
                     print(f"Warning: Cropped image is empty for {img_path}. Skipping.")
                     continue
 
-                # Adjust landmarks to be relative to the bounding box.
+
                 adjusted_landmarks = adjust_landmarks_to_bbox(hand_landmarks, bbox, bbox_size)
 
-                # Create a blank image for displaying adjusted landmarks.
+
                 hand_only_img = cropped_img.copy()
                 h, w, _ = hand_only_img.shape
 

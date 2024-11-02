@@ -12,7 +12,7 @@ including a user-defined "space" gesture. Users can then build, train, and test 
 2. Activate virual environment 'source .venv/bin/activate'
 3. Intstall necessary libraries 'pip install -r requirements.txt'
 
-# Getting Started
+## Getting Started
 1. Record Gestures: Run 'main.py' to record hand gestures for each letter.
 2. Create the Dataset: Run 'create_dataset.py' to organize the recorded hand gestures into a dataset.
 3. Display the Dataset: Run 'display_dataset.py' to view each letter in the dataset.
